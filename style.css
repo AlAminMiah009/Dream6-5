@@ -1,0 +1,200 @@
+h2{
+    
+    color:blue;
+    text-align:center;
+}
+
+.text_border{
+    border-width:5px 10px 15px 20px;
+    border-style: dotted solid dashed none; 
+    border-color: #ff0000;
+    border-radius: 10px;
+    }
+.alamin{
+    width: 150px;
+    height:20px;
+    background: red;
+    
+    padding: 20px 20px 20px 20px;;
+    
+    }
+body{
+    margin: 1;
+}
+p{
+    margin: 50px;
+    border: 1px solid #333;
+    outline: medium solid red;
+    outline-offset: 30px;
+    color: blue;
+    text-align: justify;
+    text-transform: lowercase;
+    text-decoration: none;
+    text-indent: 50px;
+    letter-spacing: 5px;
+    line-height: 2;
+    word-spacing: 10px;
+    text-shadow: 2px 10px red;
+}
+a{
+    
+ text-decoration: none;
+ color: blue;
+    }
+h3{
+    font-family: Ga Maamli;
+    font-size: 5em;
+    font-style: italic;
+    font-weight: normal;
+    font-variant: small-caps;    
+    }
+
+.icons span{
+    font-size: 100px;
+}
+
+a{
+    color: #fff;
+    font-family: tahoma;
+    font-size: 15px;
+    padding: 10px 20px;
+}
+a:link{
+text-decoration: none;
+background: #333;    
+}
+a: visited{
+    background: red;
+    color: yellow;
+}
+a:hover{
+    background: yellow;
+    color: red;
+}
+a:active{
+    background: green;
+    color: #333;
+}
+ul{
+    list-style-image: url('SS110.png');
+}
+table, th, td{
+    border: 1px solid #ddd;
+    text-align: left;
+    }
+table{
+    width: 100%;
+    border-collapse: collapse;
+    }
+td, th{
+    padding: 15px;
+}
+h4{
+   display: inline;
+}
+span{
+    text-align: center;
+}
+ul li{
+    display:inline;
+}
+.m1{
+    border: 3px solid black;
+    width: 400px;
+    margin: auto;
+}
+.m2{
+    border: 3px solid green;
+    max-width: 400px;
+    margin: auto;
+    
+}
+.green-box{
+    width: 200px;
+    height: 100px;
+    background: green;
+    position: relative;
+}
+.red-box{
+    width: 50px;
+    height: 50px;
+    background: red;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 50%; 
+    }
+.m{
+    border: 3px solid red;
+    padding: 5px;
+    margin-top: 10px;
+    background: red;
+    position: sticky;
+    top: 0;
+    }
+.lorem{
+   position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 2px solid red;
+       
+}
+.Alamin{
+    width: 300px;
+    height: 200px;
+    border: 1px solid red;
+    overflow: auto;
+    
+}
+img{
+    width: 200px;
+    float: right;
+}
+.box{
+    height: 200px;
+    background: black;
+    width: 25%;
+    float: left;
+    
+}
+.box1{
+    background: red;
+}
+.box2{
+    background: lime;
+}
+.box3{
+    background: green;
+}
+.box4{
+    background: yellow;
+}
+span.e{
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    border: 2px solid black;
+    display: inline;
+    padding: 5px;
+    
+}
+span.f{
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    border: 2px solid black;
+    display: inline-block;
+    padding: 5px;
+}
+span.g{
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    border: 2px solid black;
+    display: block;
+    padding: 5px;
+}
